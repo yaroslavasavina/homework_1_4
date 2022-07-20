@@ -4,14 +4,14 @@ public class Main {
         // Task 1
         int i = 1;
         while (i<=10) {
-            System.out.print(" " + i);
+            System.out.print(i + " ");
             i ++;
         }{
             System.out.println();
         }
 
         for (i =10; i>=1; i--){
-            System.out.print(" " + i);
+            System.out.print(i + " ");
         } {
             System.out.println();
         }
@@ -29,11 +29,11 @@ public class Main {
         int startYear = currentYear - 200;
         int endYear = currentYear + 100;
         for (int year = startYear; year<= endYear; year ++) {
-            if (year%79 == 0 && year<2022)
-            System.out.println("В " + year + " году пролетала комета.");
-           else if (year%79 ==0 && year>= 2022)
-             System.out.println("В " + year + " году пролетит комета.");
-
+            if (year%79 == 0 && year<2022) {
+                System.out.println("В " + year + " году пролетала комета.");
+            } else if (year % 79 == 0 && year >= 2022){
+                System.out.println("В " + year + " году пролетит комета.");
+            }
         }
     }
 }
