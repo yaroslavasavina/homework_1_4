@@ -6,23 +6,23 @@ public class Main {
         while (i<=10) {
             System.out.print(i + " ");
             i ++;
-        }{
-            System.out.println();
         }
+            System.out.println();
+
 
         for (i =10; i>=1; i--){
             System.out.print(i + " ");
-        } {
-            System.out.println();
         }
+            System.out.println();
+
 
         // Task 2
 
         for (int friday = 2; friday<=31;friday +=7 ) {
             System.out.println("Сегодня пятница " + friday + "-е число. Пора сдавать отчет.");
-        }{
-            System.out.println();
         }
+            System.out.println();
+
 
         // Task 3
         int currentYear = 2022;
